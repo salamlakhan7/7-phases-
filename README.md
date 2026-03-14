@@ -4,15 +4,18 @@
 # 🚀 Backend Mastery – Django Backend Engineering Roadmap
 
 <div align="center">
-![Django](https://img.shields.io/badge/Django-5.x-green?style=for-the-badge&logo=django)
-![DRF](https://img.shields.io/badge/Django%20REST%20Framework-API-red?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge&logo=python)
-![JWT](https://img.shields.io/badge/JWT-Authentication-black?style=for-the-badge&logo=jsonwebtokens)
-![OAuth](https://img.shields.io/badge/OAuth-Google-blue?style=for-the-badge&logo=google)
-![Stripe](https://img.shields.io/badge/Stripe-Payments-purple?style=for-the-badge&logo=stripe)
-![Celery](https://img.shields.io/badge/Celery-Background%20Tasks-brightgreen?style=for-the-badge&logo=celery)
-![Redis](https://img.shields.io/badge/Redis-Message%20Broker-red?style=for-the-badge&logo=redis)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+
+<img src="https://img.shields.io/badge/Django-5.x-green?style=for-the-badge&logo=django">
+<img src="https://img.shields.io/badge/Django%20REST%20Framework-API-red?style=for-the-badge">
+<img src="https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge&logo=python">
+<img src="https://img.shields.io/badge/JWT-Authentication-black?style=for-the-badge&logo=jsonwebtokens">
+<img src="https://img.shields.io/badge/OAuth-Google-blue?style=for-the-badge&logo=google">
+<img src="https://img.shields.io/badge/Stripe-Payments-purple?style=for-the-badge&logo=stripe">
+<img src="https://img.shields.io/badge/Celery-Background%20Tasks-brightgreen?style=for-the-badge&logo=celery">
+<img src="https://img.shields.io/badge/Redis-Message%20Broker-red?style=for-the-badge&logo=redis">
+<img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge">
+
+</div>
 
 **A practical backend engineering learning journey using Django and Django REST Framework.**
 
