@@ -51,9 +51,11 @@ This repository is a step-by-step learning progression across 7 phases, each rep
   - `DELETE /secure-posts/{id}/` (removes image file)
 
 ### Images
-- `ZZ complete phase 4.png`: Complete overview diagram for Phase 4 secure posts
+![Complete overview diagram for Phase 4 secure posts](req_Images/ZZ%20complete%20phase%204.png)
 
 ---
+
+## Phase 5 – Exam Blog (exam_blog)
 
 ## Phase 5 – Exam Blog (exam_blog)
 - App: `exam_blog`
@@ -83,12 +85,12 @@ This repository is a step-by-step learning progression across 7 phases, each rep
 - Celery task example: `send_welcome_email` in `Gateway/tasks.py`
 
 ### Images
-- `stripe flow chart , real.png`: Diagram of Stripe payment flow
-- `stripe postman.JPG`: Postman testing screenshot for Stripe endpoints
-- `stripe test fill info.JPG`: Screenshot of filling Stripe test payment info
-- `stripe test success.JPG`: Screenshot of successful Stripe test payment
-- `stripe test.JPG`: General Stripe testing screenshot
-- `celery background worker.png`: Illustration of Celery background worker process
+![Diagram of Stripe payment flow](req_Images/stripe%20flow%20chart%20,%20real.png)
+![Postman testing screenshot for Stripe endpoints](req_Images/stripe%20postman.JPG)
+![Screenshot of filling Stripe test payment info](req_Images/stripe%20test%20fill%20info.JPG)
+![Screenshot of successful Stripe test payment](req_Images/stripe%20test%20success.JPG)
+![General Stripe testing screenshot](req_Images/stripe%20test.JPG)
+![Illustration of Celery background worker process](req_Images/celery%20background%20worker.png)
 
 ---
 
@@ -114,18 +116,18 @@ This repository is a step-by-step learning progression across 7 phases, each rep
   - `CRUD /tests/` (TestViewSet)
 
 ### Images
-- `1A cookies-session-jwt.png`: Comparison of cookies, sessions, and JWT
-- `2A.svg`: Diagram related to authentication flow
-- `3A.jpg`: Image illustrating authentication concepts
-- `4A client side flow.png`: Client-side authentication flow diagram
-- `B1 oauth code exchange.png`: OAuth code exchange process
-- `B2 Auth-code-flow-diagram.png`: Authorization code flow diagram
-- `B3 code-flow-01.svg`: Code flow illustration
-- `B4 logic.png`: Logic diagram for authentication
-- `C1 token generation.png`: Token generation process
-- `C3.webp`: Token-related diagram
-- `C4.png`: Token handling illustration
-- `D1 Cookie based.jpg`: Cookie-based authentication
-- `D2 token-handler.svg`: Token handler diagram
-- `D4.png`: Authentication diagram
-- `D45.jpg`: Additional authentication image
+![Comparison of cookies, sessions, and JWT](req_Images/1A%20cookies-session-jwt.png)
+![Diagram related to authentication flow](req_Images/2A.svg)
+![Image illustrating authentication concepts](req_Images/3A.jpg)
+![Client-side authentication flow diagram](req_Images/4A%20client%20side%20flow.png)
+![OAuth code exchange process](req_Images/B1%20oauth%20code%20exchange.png)
+![Authorization code flow diagram](req_Images/B2%20Auth-code-flow-diagram.png)
+![Code flow illustration](req_Images/B3%20code-flow-01.svg)
+![Logic diagram for authentication](req_Images/B4%20logic.png)
+![Token generation process](req_Images/C1%20token%20generation.png)
+![Token-related diagram](req_Images/C3.webp)
+![Token handling illustration](req_Images/C4.png)
+![Cookie-based authentication](req_Images/D1%20Cookie%20based.jpg)
+![Token handler diagram](req_Images/D2%20token-handler.svg)
+![Authentication diagram](req_Images/D4.png)
+![Additional authentication image](req_Images/D45.jpg)
