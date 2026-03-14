@@ -1,4 +1,6 @@
-```markdown
+
+---
+
 # 🚀 Backend Mastery – Django Backend Engineering Roadmap
 
 <div align="center">
@@ -20,6 +22,8 @@
 This repository demonstrates how backend systems evolve from **basic CRUD APIs to production-style architecture including authentication, payments, OAuth, and background processing.**
 
 [Features](#-features) • [Phases](#-learning-phases) • [Installation](#-installation) • [Tech Stack](#-tech-stack)
+
+</div>
 
 ---
 
@@ -76,13 +80,11 @@ Uses **Django REST Framework ModelViewSet**
 ### Endpoints
 
 ```
-
 GET /tasks/
 POST /tasks/
 GET /tasks/{id}/
 PUT/PATCH /tasks/{id}/
 DELETE /tasks/{id}/
-
 ```
 
 ---
@@ -109,13 +111,11 @@ Fields:
 ### Endpoints
 
 ```
-
 GET /posts/
 POST /posts/
 GET /posts/{id}/
 PUT/PATCH /posts/{id}/
 DELETE /posts/{id}/
-
 ```
 
 ---
@@ -142,13 +142,11 @@ Fields:
 ### Endpoints
 
 ```
-
 GET /secure-posts/
 POST /secure-posts/
 GET /secure-posts/{id}/
 PUT/PATCH /secure-posts/{id}/
 DELETE /secure-posts/{id}/
-
 ```
 
 ### Images
@@ -184,13 +182,11 @@ Fields:
 ### Endpoints
 
 ```
-
 GET /articles/
 POST /articles/
 GET /articles/{id}/
 PUT/PATCH /articles/{id}/
 DELETE /articles/{id}/
-
 ```
 
 ---
@@ -202,34 +198,28 @@ DELETE /articles/{id}/
 **Product**
 
 ```
-
 name
 description
 price
-
 ```
 
 **Order**
 
 ```
-
 user
 product
 price_at_purchase
 status
-
 ```
 
 **Transaction**
 
 ```
-
 order
 gateway
 transaction_id
 amount
 status
-
 ```
 
 ### Stripe Integration
@@ -237,10 +227,8 @@ status
 Endpoints:
 
 ```
-
 POST /create-checkout-session/
 POST /webhook/
-
 ```
 
 ### Celery Background Task
@@ -248,17 +236,13 @@ POST /webhook/
 Example:
 
 ```
-
 send_welcome_email
-
 ```
 
 Located in:
 
 ```
-
 Gateway/tasks.py
-
 ```
 
 ### Images
@@ -284,21 +268,17 @@ Gateway/tasks.py
 **Test**
 
 ```
-
 owner
 test_score
 rank
 is_medical_clear
-
 ```
 
 **Profile**
 
 ```
-
 OneToOne with User
 token_version
-
 ```
 
 ### Authentication
@@ -315,7 +295,6 @@ token_version
 ### Endpoints
 
 ```
-
 POST /register/
 POST /api/token/
 POST /api/logout/
@@ -323,7 +302,6 @@ POST /admin-test/
 GET /auth/google/login/
 GET /auth/google/callback/
 CRUD /tests/
-
 ```
 
 ### Images
@@ -365,43 +343,33 @@ CRUD /tests/
 Clone repository
 
 ```
-
-git clone [https://github.com/salamlakhan7/7-phases-.git](https://github.com/salamlakhan7/7-phases-.git)
+git clone https://github.com/salamlakhan7/7-phases-.git
 cd 7-phases-
-
 ```
 
 Create virtual environment
 
 ```
-
 python -m venv venv
 venv\Scripts\activate
-
 ```
 
 Install dependencies
 
 ```
-
 pip install -r requirements.txt
-
 ```
 
 Run migrations
 
 ```
-
 python manage.py migrate
-
 ```
 
 Run server
 
 ```
-
 python manage.py runserver
-
 ```
 
 ---
@@ -429,7 +397,6 @@ python manage.py runserver
 # 📁 Project Structure
 
 ```
-
 backend_mastery/
 │
 ├── api1_crud
@@ -449,7 +416,6 @@ backend_mastery/
 ├── req_Images/
 ├── manage.py
 └── README.md
-
 ```
 
 ---
@@ -458,12 +424,15 @@ backend_mastery/
 
 **Abdul Salam**
 
-GitHub  
-https://github.com/salamlakhan7
+GitHub
+[https://github.com/salamlakhan7](https://github.com/salamlakhan7)
 
 ---
 
 # ⭐ Support
 
 If you find this project useful, consider giving it a **star ⭐ on GitHub.**
-```
+
+---
+
+
